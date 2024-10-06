@@ -1,6 +1,6 @@
 Feature: R4C Case Creation
 
-
+@Regression1
  Scenario: Verify the Case creation for Service Type as 
      Stock Rotation & Return Reason as Standard Stock Rotation with Freight type as CRF using PO Search
   

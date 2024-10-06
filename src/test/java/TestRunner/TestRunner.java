@@ -5,10 +5,10 @@ import io.cucumber.testng.CucumberOptions;
 
 public class TestRunner {
 
-	@CucumberOptions(features = "C:\\Users\\oyadavx\\git\\Intel_ISVC_R4C\\Intel_ISVC_R4C\\src\\test\\java\\Features\\Quality_CaseCreation.feature",
+	@CucumberOptions(features = "C:\\Users\\rutuj\\git\\Intel_ISVC_R4C\\src\\test\\java\\Features\\StockRotation_CaseCreation.feature",
 
 			glue = "StepDefination",
-			tags = "@TestCaseNo14",
+			tags = "@Regression1",
 			monochrome = true, 
 			dryRun = false, 
 			plugin = { "pretty",

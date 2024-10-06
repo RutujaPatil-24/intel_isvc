@@ -1503,7 +1503,7 @@ public void enter_cpn_numbervalue(String string) {
 	public Steps() {
 		try {
 			FileInputStream fis = new FileInputStream(
-					"C:\\Users\\oyadavx\\git\\Intel_ISVC_R4C\\Intel_ISVC_R4C\\src\\test\\java\\Config.properties");
+					"C:\\Users\\rutuj\\git\\Intel_ISVC_R4C\\src\\test\\java\\Config.properties");
 			prop.load(fis);
 		} catch (IOException e) {
 			e.printStackTrace();

@@ -35,7 +35,7 @@
 <a href="#"><span class="badge badge-primary">Grasshopper Report</span></a>
 </li>
 <li class="m-r-10">
-<a href="#"><span class="badge badge-primary">Sep 24, 2024 04:26:15 pm</span></a>
+<a href="#"><span class="badge badge-primary">Oct 1, 2024 11:27:24 am</span></a>
 </li>
 </ul>
 </div>
@@ -66,13 +66,13 @@
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Started</p>
-<h3>Sep 24, 2024 04:26:15 pm</h3>
+<h3>Oct 1, 2024 11:27:24 am</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Ended</p>
-<h3>Sep 24, 2024 04:27:42 pm</h3>
+<h3>Oct 1, 2024 11:30:58 am</h3>
 </div></div>
 </div>
 <div class="col-md-3">
@@ -143,7 +143,7 @@
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='100%'><b>17</b> steps passed</small></div>
+<div><small data-tooltip='100%'><b>36</b> steps passed</small></div>
 <div>
 <small data-tooltip='0%'><b>0</b> steps failed,
 <b>0</b> skipped, <b data-tooltip='%'>0</b> others
@@ -162,7 +162,7 @@
 </div></div>
 <script>
 var timeline = {
-"Case Creation Workflow for Quality":86.937
+"R4C Case Creation":212.535
 };
 </script>
 <div class="row">
@@ -172,7 +172,7 @@ var timeline = {
 <div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
 <thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
 <tr>
-<td>@TestCaseNo14</td>
+<td>@Regression1</td>
 <td>1</td>
 <td>0</td>
 <td>0</td>
@@ -225,7 +225,7 @@ warningChild: 0,
 skipChild: 0,
 infoChild: 0,
 grandChildCount: 5,
-passGrandChild: 17,
+passGrandChild: 36,
 failGrandChild: 0,
 warningGrandChild: 0,
 skipGrandChild: 0,
@@ -250,7 +250,7 @@ eventsCount: 5,
 <li class="dropdown">
 <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tag"></i></a>
 <ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
-<a class="dropdown-item" href="#">@TestCaseNo14</a>
+<a class="dropdown-item" href="#">@Regression1</a>
 </ul>
 </li>
 </ul>
@@ -261,9 +261,9 @@ eventsCount: 5,
           tag=""
           device="">
           <div class="test-detail">
-            <p class="name">Case Creation Workflow for Quality</p>
+            <p class="name">R4C Case Creation</p>
             <p class="text-sm">
-              <span>4:26:15 pm</span> / <span>00:01:26:937</span>
+              <span>11:27:25 am</span> / <span>00:03:32:535</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -271,10 +271,10 @@ eventsCount: 5,
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">Case Creation Workflow for Quality</h5>
-<span class='badge badge-success'>09.24.2024 4:26:15 pm</span>
-<span class='badge badge-danger'>09.24.2024 4:27:42 pm</span>
-<span class='badge badge-default'>00:01:26:937</span>
+<h5 class="test-status text-pass">R4C Case Creation</h5>
+<span class='badge badge-success'>10.01.2024 11:27:25 am</span>
+<span class='badge badge-danger'>10.01.2024 11:30:58 am</span>
+<span class='badge badge-default'>00:03:32:535</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
@@ -286,7 +286,7 @@ eventsCount: 5,
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="2"><span class="badge log pass-bg mr-2">Pass</span>Verify the MM Search functionality</div>
+        <div class="node" id="2"><span class="badge log pass-bg mr-2">Pass</span>Verify the Case creation for Service Type as</div>
       </div>
     </div>
         <div class="collapse">
@@ -321,43 +321,48 @@ eventsCount: 5,
       <div>
       </div>
               </div>
-              <div class="step pass-bg" title="StepDefination.Steps.select_service_type_quality_and_click_create_button()">
-                <span>And Select Service Type Quality and Click create button</span>
+              <div class="step pass-bg" title="StepDefination.Steps.user_can_view_new_r4c_case_popup()">
+                <span>Then User can view New R4C Case popup</span>
       <div>
       </div>
               </div>
-              <div class="step pass-bg" title="StepDefination.Steps.enter_sold_to_and_select(java.lang.String)">
-                <span>And Enter SoldTo and select "6006683685"</span>
+              <div class="step pass-bg" title="StepDefination.Steps.select_service_type_as(java.lang.String)">
+                <span>And Select service type as "Stock Rotation & Return"</span>
       <div>
       </div>
               </div>
-              <div class="step pass-bg" title="StepDefination.Steps.select_remedy_and_reason()">
-                <span>And Select Remedy and reason</span>
+              <div class="step pass-bg" title="StepDefination.Steps.click_on_the_create_button()">
+                <span>And Click on the create button</span>
       <div>
       </div>
               </div>
-              <div class="step pass-bg" title="StepDefination.Steps.select_ship_to_contact()">
-                <span>And Select Ship To contact</span>
+              <div class="step pass-bg" title="StepDefination.Steps.enter_sold_to_details()">
+                <span>And Enter Sold To details</span>
       <div>
       </div>
               </div>
-              <div class="step pass-bg" title="StepDefination.Steps.select_rca_address_first()">
-                <span>And Select RCA address first</span>
+              <div class="step pass-bg" title="StepDefination.Steps.select_promotional_stock_option()">
+                <span>And Select Promotional Stock option</span>
       <div>
       </div>
               </div>
-              <div class="step pass-bg" title="StepDefination.Steps.select_return_customer_contact_first()">
-                <span>And Select Return customer contact first</span>
+              <div class="step pass-bg" title="StepDefination.Steps.select_rca_address()">
+                <span>And Select RCA address</span>
       <div>
       </div>
               </div>
-              <div class="step pass-bg" title="StepDefination.Steps.select_ca_address_first()">
-                <span>And Select CA Address first</span>
+              <div class="step pass-bg" title="StepDefination.Steps.select_return_customer_contact()">
+                <span>And Select Return customer contact</span>
       <div>
       </div>
               </div>
-              <div class="step pass-bg" title="StepDefination.Steps.select_collection_contact_first()">
-                <span>When select Collection Contact first</span>
+              <div class="step pass-bg" title="StepDefination.Steps.select_ca_address()">
+                <span>And Select CA Address</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefination.Steps.select_collection_contact()">
+                <span>When select Collection Contact</span>
       <div>
       </div>
               </div>
@@ -366,13 +371,103 @@ eventsCount: 5,
       <div>
       </div>
               </div>
-              <div class="step pass-bg" title="StepDefination.Steps.clickon_product_radiobutton_and_enter_mm_number(java.lang.String)">
-                <span>When Clickon Product radiobutton and enter MM Number "99C6A3"</span>
+              <div class="step pass-bg" title="StepDefination.Steps.select_purchase_sales_order_button_and_enter_po_number(java.lang.String)">
+                <span>And Select Purchase/Sales Order button and Enter PO Number "4511948508"</span>
       <div>
       </div>
               </div>
-              <div class="step pass-bg" title="StepDefination.Steps.click_on_search_button_after_entering_mm_number()">
-                <span>And Click on search button after Entering MM Number</span>
+              <div class="step pass-bg" title="StepDefination.Steps.click_on_the_search_button()">
+                <span>Then Click on the search button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefination.Steps.select_all_line_items()">
+                <span>And Select All Line items</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefination.Steps.select_first_item()">
+                <span>And Select First Item</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefination.Steps.click_on_the_next_button_after_all_line_items()">
+                <span>And Click on the Next button after All Line Items</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefination.Steps.click_on_product_validation_and_next_button()">
+                <span>And Click on Product Validation and Next button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefination.Steps.enter_quantity_into_all_fields()">
+                <span>When Enter Quantity into All fields</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefination.Steps.click_on_the_get_credit_price()">
+                <span>And Click on the Get credit price</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefination.Steps.click_on_the_next_button_after_credit_price()">
+                <span>And Click on the Next button After credit Price</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefination.Steps.enter_credit_price_all_fields()">
+                <span>And Enter Credit price All fields</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefination.Steps.click_on_the_next_button_after_credit()">
+                <span>And Click on the Next button After Credit</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefination.Steps.click_on_the_validate_allowance()">
+                <span>And Click on the Validate Allowance</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefination.Steps.click_on_the_save_and_summary_button()">
+                <span>And Click on the Save and Summary button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefination.Steps.click_on_submit_button_after_summary()">
+                <span>And Click on submit button After Summary</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefination.Steps.check_rma_status()">
+                <span>And Check RMA status</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefination.Steps.print_case_no_into_console_sr()">
+                <span>And Print Case No into Console SR</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefination.Steps.user_can_view_case_creation_popup_message()">
+                <span>Then User can view Case creation Popup message</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefination.Steps.click_on_the_submit_button()">
+                <span>And Click on the Submit button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefination.Steps.user_can_view_successful_message()">
+                <span>Then User can view Successful message</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefination.Steps.close_browser()">
+                <span>And Close browser</span>
       <div>
       </div>
               </div>
@@ -404,12 +499,12 @@ eventsCount: 5,
 <span class="meta">
 <span class='badge log pass-bg'>1</span>
 </span>
-<p class="name">@TestCaseNo14</p>
+<p class="name">@Regression1</p>
 <p class="duration text-sm">1 tests</p>
 </div>
 <div class="test-contents d-none">
 <div class="info">
-<h4>@TestCaseNo14</h4>
+<h4>@Regression1</h4>
 <span status="pass" class='badge log pass-bg'>1 passed</span>
 </div>
 <table class='table table-sm mt-4'>
@@ -423,11 +518,11 @@ eventsCount: 5,
 <tbody>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>16:26:15 pm</td>
+<td>11:27:25 am</td>
 <td>
-<a href="#" class="linked" test-id='1' id='2'>Verify the MM Search functionality</a>
+<a href="#" class="linked" test-id='1' id='2'>Verify the Case creation for Service Type as</a>
 <div class="">
-<span class="badge badge-default">Case Creation Workflow for Quality.Verify the MM Search functionality</span>
+<span class="badge badge-default">R4C Case Creation.Verify the Case creation for Service Type as</span>
 </div>
 </td>
 </tr>
